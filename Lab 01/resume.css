@@ -1,0 +1,30 @@
+.title {
+    height: 30%;
+    width: 100%;
+    border-bottom: solid;
+}
+.title h1 {
+    text-align: center;
+    font-family: verdana;
+    font-size: 60px;
+}
+.intro {
+    display: flex;
+    flex-direction: row-reverse;
+    flex: wrap;
+    height: 30%;
+    width: 100%;
+    padding: 20px;
+
+}
+
+.intro p {
+    width: 100%;
+    font-family: verdana;
+    
+    
+}
+.intro img {
+    width: 200px;
+    height: 150px;
+}
