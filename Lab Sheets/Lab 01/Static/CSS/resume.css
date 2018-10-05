@@ -1,3 +1,9 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+
 .title {
     height: 30%;
     width: 100%;
@@ -5,7 +11,7 @@
 }
 .title h1 {
     text-align: center;
-    font-family: verdana;
+    font-family: Georgia, Serif;;
     font-size: 60px;
 }
 .intro {
@@ -20,11 +26,77 @@
 
 .intro p {
     width: 100%;
-    font-family: verdana;
+    font-family: Georgia, Serif;;
     
     
 }
 .intro img {
     width: 200px;
     height: 150px;
+    padding-right: 20px;
+}
+.Education {
+    display: flex;
+    width: 100%;
+    height: 30%;
+}
+
+.Skills {
+    display: flex;
+    width: 100%;
+    height: 30%;
+}
+
+.Experience {
+    display: flex;
+    width: 100%;
+    height: 30%;
+}
+h2 {
+    font-size: 20px;
+    margin: 0 0 6px 0;
+    position: relative;
+    font-family: Georgia, Serif;
+}
+
+h2 span {
+    position: absolute;
+    bottom: 0;
+    padding-left: 20px;
+    font-style: italic;
+    font-family: Georgia, Serif;
+    font-size: 16px;
+    color: #999;
+    font-weight: normal;
+
+}
+
+ul {
+    margin: 0 0 32px 17px;
+
+}
+
+dt {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: right;
+    padding: 0 26px 0 0;
+    width: 150px;
+    float: left;
+    height: 70px;
+    border-right: 1px solid #999;
+    font-family: Georgia, Serif;
+}
+
+dd {
+    width: 600px;
+    float: right;
+
+}
+
+dd.clear {
+    float: none;
+    margin: 0;
+    height: 15px;
 }
